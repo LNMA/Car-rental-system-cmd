@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="237.0">rcs.system.SupervisorCommandLineInterface</node>
+    <node x="21.0" y="316.0">rcs.system.RootCommandLineInterface</node>
+    <node x="17.5" y="474.0">rcs.system.ShellCommandLineInterface</node>
+    <node x="303.0" y="158.0">rcs.userList.RootDebugList</node>
+    <node x="35.0" y="79.0">rcs.system.CommandLineInterface</node>
+    <node x="145.0" y="627.0">rcs.order.CompactCarOrder</node>
+    <node x="84.0" y="0.0">rcs.microDataBase.MyData</node>
+    <node x="0.0" y="701.0">rcs.TestRCS</node>
+    <node x="318.0" y="627.0">rcs.order.SedanCarOrder</node>
+    <node x="91.0" y="395.0">rcs.iofiles.IOIn</node>
+    <node x="479.5" y="79.0">rcs.user.Customer</node>
+    <node x="270.0" y="701.0">rcs.cars.Car</node>
+    <node x="334.5" y="79.0">rcs.user.Root</node>
+    <node x="0.0" y="627.0">rcs.order.VanCarOrder</node>
+    <node x="462.0" y="158.0">rcs.userList.CustomerLists</node>
+    <node x="493.5" y="0.0">rcs.user.User</node>
+    <node x="621.0" y="158.0">rcs.userList.SupervisorNotificationList</node>
+    <node x="159.0" y="548.0">rcs.order.RentalOrder</node>
+    <node x="502.0" y="548.0">rcs.iofiles.AppendingObjectOutputStream</node>
+    <node x="142.0" y="701.0">rcs.iofiles.IOOut</node>
+    <node x="677.0" y="79.0">rcs.user.Supervisor</node>
+    <node x="7.0" y="158.0">rcs.system.CustomerCommandLineInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="rcs.system.RootCommandLineInterface" target="rcs.system.SupervisorCommandLineInterface">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.user.Root" target="rcs.user.User">
+      <point x="0.0" y="-14.5" />
+      <point x="372.5" y="54.0" />
+      <point x="506.16666666666663" y="54.0" />
+      <point x="-25.33333333333337" y="14.5" />
+    </edge>
+    <edge source="rcs.user.Customer" target="rcs.user.User">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.userList.RootDebugList" target="rcs.user.Root">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.iofiles.IOIn" target="rcs.system.RootCommandLineInterface">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.order.CompactCarOrder" target="rcs.order.RentalOrder">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.userList.SupervisorNotificationList" target="rcs.user.Supervisor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.system.CommandLineInterface" target="rcs.microDataBase.MyData">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.userList.CustomerLists" target="rcs.user.Customer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.order.SedanCarOrder" target="rcs.order.RentalOrder">
+      <point x="0.0" y="-14.5" />
+      <point x="387.5" y="602.0" />
+      <point x="263.16666666666663" y="602.0" />
+      <point x="41.66666666666663" y="14.5" />
+    </edge>
+    <edge source="rcs.system.SupervisorCommandLineInterface" target="rcs.system.CustomerCommandLineInterface">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.system.CustomerCommandLineInterface" target="rcs.system.CommandLineInterface">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.system.ShellCommandLineInterface" target="rcs.iofiles.IOIn">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="rcs.order.VanCarOrder" target="rcs.order.RentalOrder">
+      <point x="0.0" y="-14.5" />
+      <point x="62.5" y="602.0" />
+      <point x="179.83333333333334" y="602.0" />
+      <point x="-41.66666666666666" y="14.5" />
+    </edge>
+    <edge source="rcs.user.Supervisor" target="rcs.user.User">
+      <point x="0.0" y="-14.5" />
+      <point x="736.0" y="54.0" />
+      <point x="556.8333333333334" y="54.0" />
+      <point x="25.33333333333337" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="368.5" y="411.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
