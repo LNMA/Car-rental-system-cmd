@@ -18,7 +18,7 @@ program future review :
 16.Supervisor or root should change customer license validity to be valid, the default statue for it is invalid, So customer cannot do any rental operation. 
 17.Any car has status unavailable the customer cannot rent it. 
 18.For saving all data, please don’t interrupt the program, rather than close it from the proper choice the programs give it. 19.I tried to handle major exception that I except it. 
-20.And many more …………………   
+20.And many more ………………… .  
 --$#Louay Amr#$--
 
 you have two way to run program : 
